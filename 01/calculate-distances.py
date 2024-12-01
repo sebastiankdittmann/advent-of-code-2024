@@ -18,14 +18,9 @@ def calculate_sum_of_distances(list1, list2):
         counter += 1
     
     return sum_of_distances
-    
 
 def main():
     list1, list2 = read_number_lists_from_file('./01/lists.txt')
 
     sum_of_distances = calculate_sum_of_distances(list1, list2)
     print("The sum of distances is :", sum_of_distances)
-    
-
-if __name__ == "__main__":
-    main()
